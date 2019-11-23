@@ -1,12 +1,15 @@
 Week 03 - Unit 03 JavaScript Homework: Password Generator
 
 Description
+
 The files index.html is the webpage for the Password Generator 
 
 Styling
+
 Used Bootstrap 4 and CSS (style.css) for styling
 
 Behavior
+
 Used Javascript (script.js) to hold variables and functions responsible for generating the password on index.html
 
 Website's elements adjust to the changes with the size of the browser. 
@@ -28,7 +31,9 @@ Roadmap
   - Creating a box on the webpage for user to input password length to replace "prompt" in Javascript
 
 Author
+
 Gerald Lam
 
 Project status
+
 Project has been submitted through Bootcamp Spot as of Sunday 24th Nov 2019 and is considered to be a completed project. 
