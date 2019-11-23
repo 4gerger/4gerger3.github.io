@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Password Generator</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Generate a Password</h2>
+        <hr>
+        <div class="result-container">
+          <textarea id="password" placeholder="Your Secure Password" rows="5"></textarea>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="buttons">
+          <button id="generate" type="button" class="btn">
+            Generate Password
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="buttons">
+          <button id="copy" type="button" class="btn">
+            Copy to Clipboard
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./Assets/script.js"></script>
+</body>
+
+</html>
